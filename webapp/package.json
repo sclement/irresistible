@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"serve": "PORT=3000"
+    "serve": "PORT=3000"
   },
   "author": "",
   "license": "ISC"
