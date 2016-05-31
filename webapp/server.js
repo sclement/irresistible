@@ -65,6 +65,6 @@ app.delete('/api/v1.0/toppings/:id', function(req, res) {
   res.json(true);
 });
 
-var server = app.listen(process.env.PORT || 8080, "0.0.0.0", function(){
+var server = app.listen(process.env.PORT || 3000, "0.0.0.0", function(){
 	console.log('Listening on port %d', server.address().port);
 });
